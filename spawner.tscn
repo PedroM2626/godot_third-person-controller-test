@@ -1,0 +1,12 @@
+[gd_scene load_steps=5 format=3 uid="uid://oyxlqbkjjgcd"]
+
+[ext_resource type="Script" path="res://spawner.gd" id="1_57673"]
+[ext_resource type="PackedScene" uid="uid://ctt36xh4dk7q8" path="res://orb.tscn" id="2_ypl4o"]
+[ext_resource type="PackedScene" uid="uid://b2atdwl5g0pej" path="res://golden_orb.tscn" id="3_3qk4r"]
+[ext_resource type="PackedScene" uid="uid://rcgib54s4rrs" path="res://pink_orb.tscn" id="4_85weg"]
+
+[node name="Spawner" type="Node3D"]
+script = ExtResource("1_57673")
+orb_scene = ExtResource("2_ypl4o")
+goldenorb_scene = ExtResource("3_3qk4r")
+pinkorb_scene = ExtResource("4_85weg")
